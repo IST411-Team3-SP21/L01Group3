@@ -18,7 +18,7 @@ import java.net.Socket;
  */
 public class EchoServer {
     public static void main(String[] args) {
-        System.out.println("Capitalizing Echo Server");
+        System.out.println("Echo Server");
         
         //Create instance of ServerSocket
         try(ServerSocket serverSocket = new ServerSocket(6000)){

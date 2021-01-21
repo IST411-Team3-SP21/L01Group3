@@ -29,7 +29,7 @@ import java.util.Scanner;
  */
 public class EchoClient {
     public static void main(String args[]) throws UnknownHostException {
-           System.out.println("Capitalizing Echo Client");
+           System.out.println("Echo Client");
            
            try{
                System.out.println("Client waiting on connection to server...");
